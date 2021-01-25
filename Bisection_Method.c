@@ -16,7 +16,9 @@ int main()
     float x1,x2,x;
     printf("Enter Maximum no of Iterations\n");
     scanf("%d",&maxIteration);
-//...................................................    
+
+//......Compute x1 and x2............. 
+   
    do
    {
         printf("Enter the value of x1 and x2(starting boundary)");
@@ -34,7 +36,7 @@ int main()
         }
     } while(1);
 
- //..........................................   
+ //..........Find root............   
    //x1 x2 ->finalised
     while(i<=maxIteration)
     {
