@@ -1,4 +1,4 @@
-//C Program to Implement Regular Falsi Method
+//C Program to Implement Regula Falsi Method
 #include<stdio.h>
 #include<math.h>
 #define EPSILON 0.001 //3 decimal places 
