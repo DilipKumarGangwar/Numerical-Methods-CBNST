@@ -1,7 +1,7 @@
 //C Program to Implement Regula Falsi Method
 #include<stdio.h>
 #include<math.h>
-#define EPSILON 0.001 //3 decimal places 
+#define EPSILON 0.0001 //3 decimal places 
 float findValueAt(float x)
 {
    return x*x*x - 2*x -5;
