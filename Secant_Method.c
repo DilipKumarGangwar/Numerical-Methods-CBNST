@@ -5,6 +5,7 @@
 float findValueAt(float x)
 {
    return x*x*x - 5*x +1;
+   //return cos(x)+2*sin(x)+x*x; transcedental Equation
 }
 
 float findX(float x1,float x2)
