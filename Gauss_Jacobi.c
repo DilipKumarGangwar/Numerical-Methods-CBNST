@@ -1,4 +1,4 @@
-//C Program to Implement Gauss Jordan Method
+//C Program to Implement Gauss Jacobi Method
 #include<stdio.h>
 #include<math.h>
 #include<stdbool.h>
@@ -52,7 +52,7 @@ void print(int iteration,float values[n])
 void findValues(float a[][n+1],int maxIterations,float values_old[n])
 {
     int i,j,k,iteration;
-    float ratio,sum=0;
+    float sum=0;
     float values_new[n];
     for(iteration=1;iteration<=maxIterations;iteration++)
     {
@@ -109,7 +109,7 @@ int main()
     printf("Enter no. of iterations\n");
     scanf("%d",&maxIterations);
     float a[n][n+1];
-    float values[n];;
+    float values[n];
 
     printf("Enter the Augmented Matrix\n");
     for(int i=0;i<n;i++)
@@ -120,10 +120,10 @@ int main()
 
    if(!isMethodApplicable(a))
    {
-        printf("Gauss Jacobi Method can't be applied");
+        printf("Gauss Jacobi Method can't be applied\n");
         return 0;
    }
-   printf("Gauss Jacobi Method is applicable");
+   printf("Gauss Jacobi Method is applicable\n");
    for(int i=0;i<n;i++)
      values[i]=0;
    findValues(a,maxIterations,values);
