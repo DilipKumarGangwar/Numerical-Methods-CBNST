@@ -1,7 +1,7 @@
 //C Program to Implement Iteration Method
 #include<stdio.h>
 #include<math.h>
-#define EPSILON 0.01
+#define EPSILON 0.001
 
 float f(float x)
 {

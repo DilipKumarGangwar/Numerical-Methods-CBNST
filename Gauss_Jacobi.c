@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<math.h>
 #include<stdbool.h>
-#define EPSILON 0.01
+#define EPSILON 0.001
 
 int n;
 int flag;

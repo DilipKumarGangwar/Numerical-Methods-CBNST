@@ -42,8 +42,12 @@ void ApplyBackSubstitution(float a[][n+1],float value[],int n)
     for(i=n-2;i>=0;i--)
     {
         sum=0;
-        for(j=i+1;j<n;j++)
+        for(j=i+1;j<n;j++){
+            printf("vvba=%f %f,",a[i][j],value[j]);
             sum=sum+a[i][j]*value[j];
+            printf("sunnnm=%f",sum);
+        }
+        printf("sum=%f",sum);    
         value[i] = (a[i][n]-sum)/a[i][i];
     } 
 }
