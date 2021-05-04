@@ -1,10 +1,10 @@
-//Simpson's 3/8 Rule
+//C Program to Implement Simpson's 3/8 Rule
 
 #include<stdio.h>
 
 float findValueAt(float x)
 {
-    return 1/(1+x);
+    return 1/(1+x*x);
 }
 int main()
 {
