@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 int n;
-//Converts the Augmented matrix to Diagonal Triangular Matrix form
+//Converts the Augmented matrix to Upper Triangular Matrix form
 void convertToUpperTriangular(float a[][n+1],int n)
 {
     int i,j,x,y,k;
@@ -22,7 +22,7 @@ void convertToUpperTriangular(float a[][n+1],int n)
              for( x=0;x<n;x++)
              {
                for(y=0;y<n+1;y++)
-                  printf("%f ",a[x][y]);
+                  printf("%.2f ",a[x][y]);
                printf("\n");   
              }
              printf("\n");
@@ -42,12 +42,8 @@ void ApplyBackSubstitution(float a[][n+1],float value[],int n)
     for(i=n-2;i>=0;i--)
     {
         sum=0;
-        for(j=i+1;j<n;j++){
-            printf("vvba=%f %f,",a[i][j],value[j]);
-            sum=sum+a[i][j]*value[j];
-            printf("sunnnm=%f",sum);
-        }
-        printf("sum=%f",sum);    
+        for(j=i+1;j<n;j++)
+            sum=sum+a[i][j]*value[j];  
         value[i] = (a[i][n]-sum)/a[i][i];
     } 
 }
