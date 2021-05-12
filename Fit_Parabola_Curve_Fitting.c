@@ -88,6 +88,7 @@ int main()
     augmented_matrix[2][2]=sx2;
     augmented_matrix[2][3]=sx2y;
 
+    //Applying Gauss Elimination Method to find a,b,c
     convertToUpperTriangular(augmented_matrix,3);
     ApplyBackSubstitution(augmented_matrix,value,3);
 
