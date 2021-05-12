@@ -94,5 +94,5 @@ int main()
 
     printf("\nValue of a = %.2f \nValue of b = %.2f\nValue of c = %.2f\n\n",value[0],value[1],value[2]); 
     //..........................Output...................
-    printf("Equation of The line: y= %.2fx^2 + %.2fx + %.2f",value[0],value[1],value[2]);
+    printf("Equation of The Parabola: y= %.2fx^2 + %.2fx + %.2f",value[0],value[1],value[2]);
 }
