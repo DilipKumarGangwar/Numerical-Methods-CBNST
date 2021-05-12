@@ -1,4 +1,4 @@
-//C Program to Fit a 2nd degree Parabola on given points
+//C Program to Fit a 2nd degree Parabola (y=ax^2 + bx +c ) on given points
 
 #include<stdio.h>
 
