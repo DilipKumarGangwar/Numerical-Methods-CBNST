@@ -4,10 +4,11 @@
 
 int main()
 {
-    float a[100][100],x,u1,u,y;
+    float x,u1,u,y;
     int i,j,n,fact;
     printf("Enter no. of terms\n");
     scanf("%d",&n);
+    float a[n][n+1];
     printf("Enter Values of X \n");
     for(i=0;i<n;i++)
           scanf("%f",&a[i][0]);
