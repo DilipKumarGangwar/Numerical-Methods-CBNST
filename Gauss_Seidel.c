@@ -122,7 +122,7 @@ int main()
         printf("Gauss Seidel Method can't be applied");
         return 0;
    }
-   printf("Gauss Seidel Method is applicable");
+   printf("\n\nGauss Seidel Method is applicable\n");
    for(int i=0;i<n;i++)
      values[i]=0;
    findValues(a,maxIterations,values);

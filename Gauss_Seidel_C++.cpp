@@ -1,4 +1,4 @@
-//C Program to Implement Gauss Seidel Method
+//C++ Program to Implement Gauss Seidel Method
 
 #include<iostream>
 #include<cmath>
