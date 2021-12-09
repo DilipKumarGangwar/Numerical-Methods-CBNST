@@ -1,4 +1,4 @@
-//C Program to Implement Gauss Jacobi Method
+//C++ Program to Implement Gauss Jacobi Method
 #include<iostream>
 #include<cmath>
 using namespace std;
