@@ -42,7 +42,7 @@ int main()
     if(fabs(f(x1)) < fabs(f(x2)))
         x0 = x1;
     else
-        x1 = x2;    
+        x0 = x2; //x0 in place of x1   
 
     //Apply Successive approximation to find the root b/w x1 and x2
     //..........Find root............   
